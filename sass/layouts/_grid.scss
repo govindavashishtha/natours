@@ -22,7 +22,44 @@
         width: calc((100% -#{$gutter-horizontal}) /2);
     }
 
-    // .col-2-of-2{
-    //     float:left;
-    // }
+  
+
 }
+
+.columnz {
+    margin-top: 6.5rem;
+    float: left;
+    border-radius: .2rem;
+    text-align: center;
+    width: 18%;
+    margin-right: 3rem;
+    background-color: rgba(245, 245, 245, 0.89);
+    padding: 1rem;
+    padding-top: 3rem;
+    box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.582);
+    height: 27rem ;
+    &:last-child{
+     margin-right: 0rem;
+    }
+    &:first-child{
+        margin-left: 11rem;
+    }
+    &:hover{
+        transform: translateY(-1rem) scale(1.01);
+    }
+  }
+  
+  /* Clear floats after the columns */
+  .rowz:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+      
+    }
+  }
