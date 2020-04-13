@@ -1,0 +1,22 @@
+.discButton {
+    background-color: $color-white;
+    text-align: center;
+    font-size: 1.4rem;
+    display: inline-block;
+    text-decoration: none;
+    color:$color-greydark;
+    font-weight: 400;
+    border-radius: 10rem;
+    padding: 1.5rem 4rem; 
+    animation-name: fadesUP;  
+    top: 3rem;
+    position: relative;
+    animation-duration: 2.2s;
+    box-shadow:  0 .5rem .5rem rgba(83, 80, 80, 0.788);
+}
+.discButton:hover{
+    transform: scale(1.05);
+}
+.discButton:active{  
+    transform: scale(1.05);
+}
