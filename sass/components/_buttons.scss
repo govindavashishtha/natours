@@ -20,3 +20,32 @@
 .discButton:active{  
     transform: scale(1.05);
 }
+.About-learnMore{
+    text-decoration: none;
+    font-weight: 300;
+    color: $color-primary-dark;
+    position: absolute;
+    left: 5.5rem;
+    bottom: 4rem;
+    //display: inline-block;
+    padding: 1rem;
+    
+
+&:after {
+    content: '';
+
+    width: 80%;
+    position: absolute;
+    left: 1rem;
+    top: 3.69rem;
+
+    border-width: 0 0 1px;
+    border-style: solid;
+}
+&:hover{
+    background-color:$color-primary-dark ;
+    color: $color-white;
+    transform: translateY(-.1rem);
+    
+}
+}

@@ -52,9 +52,31 @@ body {
     opacity: 1;
     transform: translate(0); } }
 
+h3 {
+  font-size: 1.9rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: .05rem;
+  margin-bottom: -1rem; }
+
+p {
+  font-weight: 300;
+  letter-spacing: .1rem;
+  position: relative;
+  bottom: 2rem; }
+
+.About-heading2 {
+  position: relative;
+  bottom: 2rem; }
+
+.heading-2-para {
+  position: relative;
+  bottom: 4rem; }
+
 .section-about {
-  background-color: #dfdfdf;
-  height: 100vh;
+  background-color: rgba(238, 236, 236, 0.664);
+  height: 110vh;
   margin-left: -2rem;
   margin-right: -2rem;
   margin-top: -27vh;
@@ -95,6 +117,27 @@ body {
 .discButton:active {
   transform: scale(1.05); }
 
+.About-learnMore {
+  text-decoration: none;
+  font-weight: 300;
+  color: #28b485;
+  position: absolute;
+  left: 5.5rem;
+  bottom: 4rem;
+  padding: 1rem; }
+  .About-learnMore:after {
+    content: '';
+    width: 80%;
+    position: absolute;
+    left: 1rem;
+    top: 3.69rem;
+    border-width: 0 0 1px;
+    border-style: solid; }
+  .About-learnMore:hover {
+    background-color: #28b485;
+    color: aliceblue;
+    transform: translateY(-0.1rem); }
+
 .header {
   height: 95vh;
   background-image: linear-gradient(to bottom right, #198306c4, #16dd9bcc), url(../img/hero.jpg);
@@ -133,12 +176,14 @@ body {
   display: block;
   font-weight: 400;
   letter-spacing: 1.6rem;
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   animation-name: moveinright;
   animation-duration: 1.5s;
   text-align: center; }
 
 .row {
+  position: relative;
+  bottom: 7rem;
   max-width: 114rem;
   margin: 0 auto; }
   .row:not(:last-child) {
@@ -153,3 +198,28 @@ body {
       margin-right: 6rem; }
   .row .col-1-of-2 {
     width: calc((100% -6rem) /2); }
+
+.composition {
+  position: relative; }
+  .composition__photo {
+    width: 23%;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.555);
+    position: absolute;
+    padding: 0;
+    z-index: 1;
+    transition: all .2s;
+    outline-offset: 1.5rem; }
+    .composition__photo--p1 {
+      top: 5rem;
+      left: 62rem; }
+    .composition__photo--p2 {
+      left: 85rem;
+      top: 10rem; }
+    .composition__photo--p3 {
+      left: 73rem;
+      top: 18rem; }
+    .composition__photo:hover {
+      transform: scale(1.15);
+      box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.6);
+      z-index: 2;
+      outline: 1rem solid #7ed56f; }
