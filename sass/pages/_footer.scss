@@ -1,0 +1,31 @@
+.footer{
+    background-color: rgb(59, 59, 59);
+    position: absolute; 
+    width: 94%;
+    margin-left: 2rem;
+    margin-top: -9rem;
+    padding-left:5rem ;
+    padding-right: 5rem;
+   
+     
+    
+    &__image{
+        height: 17rem;
+    }
+    &__list{
+        list-style: none;
+    }
+    &__listitem{
+        display: inline;
+        margin-right: 0rem;
+    }
+    &__link{
+        text-decoration: none;
+        font-size: 1rem;
+    }
+    &__imagebox{
+        width: 100%;
+        text-align: center; 
+    }
+    
+}

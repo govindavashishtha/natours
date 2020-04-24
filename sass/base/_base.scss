@@ -2,9 +2,11 @@
     margin:0;
     padding: 20px;
     box-sizing: border-box; 
+    
 }
 html{
     font-size: 62.5%;
+    background-color: rgb(240, 238, 238);
 }
 
 body{
@@ -13,4 +15,5 @@ body{
     font-size: 1.6rem;
     line-height: 1.7rem;
     color:$color-greydark;
+    padding: 0rem;
 }

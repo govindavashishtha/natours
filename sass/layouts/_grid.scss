@@ -2,6 +2,7 @@
     position: relative;
     bottom: 7rem;
     max-width: $grid-width ;
+    
     margin: 0 auto;
    
 
@@ -58,8 +59,67 @@
   
   /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 500px) {
-    .column {
+    .columnz {
       width: 100%;
       
     }
+  }
+
+  .columnzz {
+    margin-top: 6.5rem;
+    float: left;
+    border-radius: .2rem;
+    text-align: center;
+    width: 25%;
+    margin-right: 3rem;
+    background-color: transparent ; 
+    padding: 0rem;
+    padding-top: 0rem;
+    
+    
+    
+    height: 45rem ;
+    &:last-child{
+     margin-right: 0rem;
+    }
+    &:first-child{
+        margin-left: 12rem;
+    }
+    
+  }
+  
+  .rowzz{
+      position: relative;
+     
+      padding: 0;
+      bottom: 7rem;
+
+     
+  }
+  .rowzz:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+
+
+
+  .columni {
+    &:first-child{
+      margin-left: 0;
+    }
+    margin-left: 18rem;
+    float: left;
+    width: 42%;
+    border-top: 2px green solid;
+    padding: 2rem;
+  }
+  
+  /* Clear floats after the columns */
+  .rowi:after {
+    content: "";
+    display: table;
+    clear: both;
   }

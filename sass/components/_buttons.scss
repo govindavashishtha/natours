@@ -49,3 +49,78 @@
     
 }
 }
+
+
+.booknowButton{
+    background-color: $color-white;
+    text-align: center;
+    font-size: 1.4rem;
+    display: inline-block;
+    text-decoration: none;
+    color:$color-greydark;
+    font-weight: 400;
+    border-radius: 10rem;
+    padding: 1.5rem 4rem; 
+     top: 2rem;
+    position: relative;
+    
+    box-shadow:  0 .5rem 1rem rgba(83, 80, 80, 0.788);
+}
+.booknowButton:hover{
+    transform: scale(1.05);
+}
+.booknowButton:active{  
+    transform: scale(1.05); 
+}
+
+
+.discButton2 {
+    background-color: $color-primary-light;
+    text-align: center;
+    z-index: 6;
+    font-size: 1.4rem;
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    font-weight: 400;
+    border-radius: 10rem;
+    padding: 1.5rem 4rem; 
+    top: 3rem;
+    position: relative;
+    box-shadow:  0 .5rem .5rem rgba(83, 80, 80, 0.788);
+    &:hover{
+        transform: scale(1.05);
+    }
+    &:active{  
+        transform: scale(1.05); 
+    }
+}
+.About-learnMore1{
+    text-decoration: none;
+    font-weight: 300;
+    color: $color-primary-dark;
+    position: absolute;
+    left: 44%;
+    margin-top: 7rem;
+
+    padding: 1.02rem;
+    
+
+&:after {
+    content: '';
+
+    width: 80%;
+    position: absolute;
+    left: 1rem;
+    top: 3.69rem;
+
+    border-width: 0 0 1px;
+    border-style: solid;
+}
+&:hover{
+    background-color:$color-primary-dark ;
+    color: $color-white;
+    transform: translateY(-.1rem);
+    
+}
+}

@@ -1,9 +1,14 @@
 .section-feature {
     height: 100vh;
-background-image: linear-gradient(to bottom right,#198306c4,#16dd9bcc) , url(../img/nat-5.jpg);
-background-size: cover;
-background-position:top;
-clip-path: polygon(0 20%,100% 0 ,100% 80%, 0 100%);
+    
+    background-image: linear-gradient(to bottom right,#198306c4,#16dd9bcc) , url(../img/nat-6.jpg);
+    background-size: cover;
+    background-position:top;
+    clip-path: polygon(0 20%,100% 0 ,100% 80%, 0 100%);
+    margin-left: 0rem ;
+    margin-right: 0rem;
+    width: fit-content
+
 }
 .rowz{
     position: relative;
